@@ -1,0 +1,36 @@
+/* CSS3 STYLE GENERIC */
+.view {
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	border: 3px solid #787878;
+	text-align: center;
+	border-radius: 0px;
+	box-shadow: 0px 0px 8px #444;
+	cursor: default;
+
+}
+.view .mask, .view .content {
+	position: absolute;
+	top: 0;
+	left: 1px;
+	overflow: hidden;
+	width: 150px;
+	height: 87px;
+}
+.view img {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+   
+}
+.view a.info {
+   background:url(../img/link.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+
+   height:100%;
+}
